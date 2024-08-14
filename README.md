@@ -1,5 +1,10 @@
 # What's this?
-This directory contains a basic NodeJS demo application to be used in combination with the ACK S3 Controller. This app uses the AWS SDK to try and read files from the S3 bucket. It then returns the names of the files.
+This is a basic and tiny application to be hosted in an EKS (Blueprints) Cluster paired with an AWS ACK S3 Bucket. The container image can be used to test read and write access from the k8s container to the S3 bucket. The response gives the necessary documentation in custom JSON fields.
+
+# Default: env vars
+- Default `PORT` is `4000`
+- Default `BUCKET_REGION` is `us-east-1`
+- Default `BUCKET_NAME` is `non-existent-bucket-gd52q`
 
 # Docker
 ```
