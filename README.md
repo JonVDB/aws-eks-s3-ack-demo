@@ -1,5 +1,5 @@
 # What's this?
-This is a basic and tiny application to be hosted in an EKS (Blueprints) Cluster paired with an AWS ACK S3 Bucket. The container image can be used to test read and write access from the k8s container to the S3 bucket. The response gives the necessary documentation in custom JSON fields.
+This is a basic and tiny application to be hosted in an EKS (Blueprints) Cluster. It can test read and write access to a specific S3 bucket in your AWS account. This was originally made to test a k8s pod's access to an AWS S3 Bucket made using the ACK S3 Controller. The response gives the necessary documentation in custom JSON fields.
 
 # Default: env vars
 - Default `PORT` is `4000`
@@ -10,4 +10,3 @@ This is a basic and tiny application to be hosted in an EKS (Blueprints) Cluster
 ```
 docker pull jonvdb/s3-ack-demo:latest
 ```
-
